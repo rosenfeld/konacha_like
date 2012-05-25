@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "konacha_like"
   gem.require_paths = ["lib"]
   gem.version       = KonachaLike::VERSION
+
+  gem.add_dependency 'rails-sandbox-assets'
 end
