@@ -1,5 +1,8 @@
 require "konacha_like/version"
+require 'rails-sandbox-assets'
 
 module KonachaLike
-  # Your code goes here...
+  class Engine < Rails::Engine
+
+  end
 end
